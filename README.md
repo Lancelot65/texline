@@ -6,13 +6,6 @@ Minimal terminal chat client with OpenAI-compatible providers, Markdown renderin
 
 - API keys stay in `.env`, which is ignored by Git.
 - Local runtime files are ignored: `.tui_chat.providers.json`, `.tui_chat.filesystem.json`, `.history/`, `node_modules/`, `.venv/`.
-- `npm run check:public` scans the repo for likely secrets and personal home-directory paths before a push.
-
-Run this before your first public push:
-
-```bash
-npm run check:public
-```
 
 ## Requirements
 
@@ -164,13 +157,7 @@ git status --ignored
 npm test
 ```
 
-3. Run the public safety scan:
-
-```bash
-npm run check:public
-```
-
-4. Only then initialize and push:
+3. Only then initialize and push:
 
 ```bash
 git init
