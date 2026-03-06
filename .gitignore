@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+.tui_chat.providers.json
+.tui_chat.filesystem.json
+.history/
+*.log
+.DS_Store
+rust/target/
