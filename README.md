@@ -138,24 +138,3 @@ Rules:
 
 Saved conversations go to `.history/` by default when you run `.save` without a path.
 
-## Before pushing to GitHub
-
-1. Check ignored files:
-
-```bash
-git status --ignored
-```
-
-2. Run tests:
-
-```bash
-npm test
-```
-
-3. Only then initialize and push:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
