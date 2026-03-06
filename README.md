@@ -2,6 +2,10 @@
 
 Minimal terminal chat client with OpenAI-compatible providers, Markdown rendering, and inline LaTeX.
 
+## Demo
+
+[Watch the presentation video](assets/videos/texline-demo.mp4)
+
 ## Requirements
 
 - Node.js 20+
@@ -137,4 +141,3 @@ Rules:
 - If OCR fails, the prompt fails clearly instead of skipping the file.
 
 Saved conversations go to `.history/` by default when you run `.save` without a path.
-
