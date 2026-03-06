@@ -4,7 +4,9 @@ Minimal terminal chat client with OpenAI-compatible providers, Markdown renderin
 
 ## Demo
 
-[Watch the presentation video](assets/videos/texline-demo.mp4)
+![texline demo](assets/videos/texline-demo.gif)
+
+Full video: [texline-demo.mp4](assets/videos/texline-demo.mp4)
 
 ## Requirements
 
