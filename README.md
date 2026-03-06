@@ -2,11 +2,6 @@
 
 Minimal terminal chat client with OpenAI-compatible providers, Markdown rendering, and inline LaTeX.
 
-## Why this repo is safe to publish
-
-- API keys stay in `.env`, which is ignored by Git.
-- Local runtime files are ignored: `.tui_chat.providers.json`, `.tui_chat.filesystem.json`, `.history/`, `node_modules/`, `.venv/`.
-
 ## Requirements
 
 - Node.js 20+
